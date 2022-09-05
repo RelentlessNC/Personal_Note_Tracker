@@ -24,10 +24,10 @@ router.post('/', function(req, res, next) {
         id: nanoid()
     }
     const file = fs.readFileSync('./db/db.json');
+    const json = JSON.parse(file);
     if (file.length == 0) {
         fs.writeFileSync('./db/db.json', JSON.stringify(newData));
     } else {
-        const json = JSON.parse(file);
         json.push(newData);
         fs.writeFileSync('./db/db.json', JSON.stringify(json));
     }
