@@ -34,5 +34,18 @@ router.post('/', function(req, res, next) {
     res.redirect(req.originalUrl);
 })
 
+router.delete('/:id', function(req, res) {
+    file = fs.readFileSync('./db/db.json');
+    data = JSON.parse(file);
+    var loc;
+    for (loc = 0; loc < data.length; loc++) {
+        if (data[loc].id == req.params.id) {
+            data.splice(loc, 1);
+            fs.writeFileSync('./db/db.json', JSON.stringify(data));
+            res.redirect('/');
+        }
+    }
+});
+
 
 module.exports = router;
