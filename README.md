@@ -1,10 +1,13 @@
-# Note Taker Starter Code
-
 # Express.js Challenge: Note Taker
 
 Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+
+## Live Application URL
+
+[Live Site](https://challenge11solution.herokuapp.com/)
+[GitHub Repository](https://github.com/RelentlessNC/challenge_11_solution.git)
 
 ## IMPORTANT
 
@@ -42,9 +45,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 The following images show the web application's appearance and functionality:
 
-[Demo 1](./Develop/public/assets/images/11-express-homework-demo-01.png)
+[Demo 1](/public/assets/images/11-express-homework-demo-01.png)
 
-[Demo 2](./Develop/public/assets/images/11-express-homework-demo-02.png)
+[Demo 2](/public/assets/images/11-express-homework-demo-02.png)
 
 ## Getting Started
 
