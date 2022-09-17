@@ -7,6 +7,7 @@ The application’s front end has already been created. It's your job to build t
 ## Live Application URL
 
 [Live Site](https://challenge11solution.herokuapp.com/)
+
 [GitHub Repository](https://github.com/RelentlessNC/noteTaker.git)
 
 ## User Story
