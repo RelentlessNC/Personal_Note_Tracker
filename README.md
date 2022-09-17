@@ -1,4 +1,4 @@
-# Express.js Challenge: Note Taker
+# Express.js: Note Taker
 
 Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
@@ -7,13 +7,7 @@ The application’s front end has already been created. It's your job to build t
 ## Live Application URL
 
 [Live Site](https://challenge11solution.herokuapp.com/)
-[GitHub Repository](https://github.com/RelentlessNC/challenge_11_solution.git)
-
-## IMPORTANT
-
-Make sure to clone the starter code repository and make your own repository with the [starter code](https://github.com/coding-boot-camp/miniature-eureka). Do not fork the starter code repository!
-
-Before you start, clone the starter code (Links to an external site.).
+[GitHub Repository](https://github.com/RelentlessNC/noteTaker.git)
 
 ## User Story
 
@@ -45,9 +39,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 The following images show the web application's appearance and functionality:
 
-[Demo 1](/public/assets/images/11-express-homework-demo-01.png)
+![Demo 1](./public/assets/images/11-express-homework-demo-01.png)
 
-[Demo 2](/public/assets/images/11-express-homework-demo-02.png)
+![Demo 2](./public/assets/images/11-express-homework-demo-02.png)
 
 ## Getting Started
 
@@ -70,70 +64,3 @@ The following API routes should be created:
 You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
 
 - DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
-Grading Requirements
-NOTE
-If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
-
-- A repository that has no code
-
-- A repository that includes a unique name but nothing else
-
-- A repository that includes only a README file but nothing else
-
-- A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-## Technical Acceptance Criteria: 40%
-
-- Satisfies all of the preceding acceptance criteria plus the following:
-
-  - Application front end must connect to an Express.js back end.
-
-  - Application back end must store notes with unique IDs in a JSON file.
-
-  - Application must be deployed to Heroku.
-
-## Deployment: 36%
-
-- Application deployed at live URL.
-
-- Application loads with no errors.
-
-- Application GitHub URL submitted.
-
-- GitHub repository contains application code.
-
-## Application Quality: 11%
-
-- Application console is free of errors.
-
-## Repository Quality: 13%
-
-- Repository has a unique name.
-
-- Repository follows best practices for file structure and naming conventions.
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains a quality README file with description, screenshot, and link to deployed application.
-
-## Bonus: +10 Points
-
-- Application allows users to delete notes.
-
-## How to Submit the Challenge
-
-You are required to submit BOTH of the following for review:
-
-- The URL of the functional, deployed application.
-
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-### NOTE
-
-You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next Module.
-
-Comments are disabled for graded submissions in BootCamp Spot. If you have questions about your feedback, please notify your instructional staff or the Student Success Manager. If you would like to resubmit your work for an improved grade, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
